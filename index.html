@@ -43,13 +43,14 @@
 
   <body>
     <div class="body"> 
-      <nav> 
-       
+      <nav class="padding-container"> 
         <div class="logo-div">
           <div class="logo-con"><img src="./frame/e-tch.svg" class="logo1" /></div>
-          <div><img src="./frame/S o l u t i o n.svg" /></div>  
+          <div><img src="./frame/S o l u t i o n.svg" class="soloution-logo" /></div>  
         </div>
-        <!-- <i class="fa-solid fa-bars"></i> -->
+        <div class="ham">
+          <i class="fa-solid fa-bars"></i>
+        </div>
         <ul>
           <li><a href="#Home">Home</a></li>
           <li><a href="#Service">Service</a></li>
@@ -61,9 +62,8 @@
         </ul>
       </nav>
 
-      <div class="sec1-div">
+      <div class="sec1-div padding-container">
         <div class="sec1-text-con">
-          <div>
             <div class="solution-text-con">
               <p>Best <strong>Solution Provider</strong>  for Your <strong>Business</strong></p>
             </div>
@@ -78,7 +78,6 @@
               <button class="button">Lets start</button>
               <div class="svg-div"><div class="svg1"><img src="./vec-img/vector-b.svg" class="img-size"> </div></div>
             </div>
-          </div>
         </div>
 
         <div class="con">
@@ -92,7 +91,7 @@
               <img src='./frame/Frame 20.png' class="img-size">
             </div>
           </div>
-          <div class="img-con2"><img src="./image/Frame 23.png" class="img-size" /></div>
+          <!-- <div class="img-con2"><img src="./image/Frame 23.png" class="img-size" /></div> -->
         </div>
       </div>
 
@@ -329,5 +328,17 @@
         </button>
       </div>
     </div>
+    <script text="javscript" src="tech.js"></script>
+
+    <!-- var docwidth = document.documentElement.offsetWidth;
+
+[].forEach.call(
+    document.querySelectorAll('*'),
+    function(el){
+        if (el.offsetWidth > docwidth){
+            console.log(el);
+        }
+    }
+) -->
   </body>
 </html>
